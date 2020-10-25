@@ -7,5 +7,5 @@ it('expect to render MainPage component', () => {
         robots: [],
         searchField: ''
     }
-    expect(shallow(<App store={mockStore} />)).toMatchSnapshot();
+    expect(shallow(<MainPage store={mockStore} />)).toMatchSnapshot();
 });
