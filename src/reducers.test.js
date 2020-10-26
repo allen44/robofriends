@@ -61,7 +61,8 @@ describe('requestRobots', () => {
             type: REQUEST_ROBOTS_FAILED,
             payload: 'noooooo'
         })).toEqual({
-            error: ' ',
+            error: 'noooooo',
+            robots: [],
             isPending: false
         })
     })
